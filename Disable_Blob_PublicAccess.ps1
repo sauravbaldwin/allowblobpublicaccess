@@ -1,4 +1,4 @@
-﻿$storages = Get-Content -path Desktop\storage_nonprod.csv
+﻿$storages = Get-Content -path Desktop\xxxx\xxxx\storage_List.csv
 foreach ($storage in $storages)
 {
 $resource=Get-AzResource -Name $storage
